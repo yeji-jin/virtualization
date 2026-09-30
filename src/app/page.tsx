@@ -8,6 +8,7 @@ export default function Home() {
       <div className="grid gap-4 sm:grid-cols-2">
         <Link className="rounded-xl border p-6 hover:bg-muted" href="/demo/virtualization">01. 라이브러리 없이 구현하기 →</Link>
         <Link className="rounded-xl border p-6 hover:bg-muted" href="/demo/virtualization-library">02. TanStack Virtual 사용하기 →</Link>
+        <Link className="rounded-xl border p-6 hover:bg-muted" href="/demo/pagination">03. 클라이언트 페이지네이션 →</Link>
       </div>
     </main>
   );
